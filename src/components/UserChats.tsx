@@ -36,12 +36,12 @@ const UserChats: FC<Props> = ({ searchQuery }) => {
 
   const [deleteChat] = useDeleteChatMutation();
 
-  const clickHandler = (e: MouseEvent, id: string) => {
+  const clickHandler = (_e: MouseEvent, id: string) => {
     dispatch(changechatId({ userId, chatId: id }));
   };
 
   const clickHandlerModal = (
-    e: MouseEvent,
+    _e: MouseEvent,
     first_name: string,
     last_name: string
   ) => {
