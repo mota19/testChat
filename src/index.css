@@ -1,0 +1,18 @@
+:root {
+  --font-family: "Arial", sans-serif; /* Базовий шрифт */
+  --font-size: 16px; /* Базовий розмір тексту */
+  --color-primary: #333; /* Основний колір тексту */
+  --color-background: #f9f9f9; /* Основний колір фону */
+  --color-link: #007bff; /* Колір посилань */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}

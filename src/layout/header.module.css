@@ -1,0 +1,39 @@
+.header {
+  background-color: rgb(243, 240, 240);
+  padding: 10px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.Image_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login_BTN {
+  background-color: white;
+  color: rgb(0, 110, 253);
+  font-size: 14px;
+  font-weight: 700;
+  width: 60px;
+  height: 25px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 20px;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 9999px;
+}
+
+.search {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border-radius: 50px;
+  background-color: white !important;
+  border: 1px solid rgb(190, 190, 190);
+  background: url("https://img.icons8.com/ios7/600/search.png") no-repeat 10px
+    center;
+  background-size: 15px;
+}

@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 240, 240);
+  height: 100vh;
+}
+
+.nicknameContainer {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.nicknameContainer h3 {
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 9999px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(252, 252, 252);
+  height: 100%;
+  overflow-y: auto;
+}
+
+.MessageContainer {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: auto auto;
+  row-gap: 5px;
+  align-items: center;
+  width: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.message {
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 20px;
+  word-wrap: break-word;
+  grid-column: 2;
+  width: fit-content;
+}
+
+.userMessage {
+  background-color: rgb(10, 22, 82);
+  color: white;
+  justify-self: flex-start;
+}
+
+.yourMessage {
+  background-color: rgb(243, 240, 240);
+  justify-self: flex-end;
+}
+
+.msgAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.yourdate {
+  font-size: 10px;
+  color: gray;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: flex-end;
+}
+
+.userdate {
+  font-size: 10px;
+  color: gray;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.searchBarContainer {
+  display: flex;
+  height: 100px;
+  background-color: rgb(243, 240, 240);
+  padding: 20px;
+  align-items: center;
+}
+
+.searchBar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  border-radius: 20px;
+  background-size: 15px;
+  border: 1px solid rgb(190, 190, 190);
+  font-size: 16px;
+}
+
+.searchBar img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 20px;
+  width: auto;
+}
